@@ -30,5 +30,10 @@ public class Main {
         System.out.println(l + ((m * n) / o));
         int resultof = (l + ((m * n) / o));
         System.out.println(resultof);
+
+        int i = 2;
+        double  g = 15;
+        float h = 8;
+        System.out.println(n + (g / (x * i)) - (h % x));
     }
 }
