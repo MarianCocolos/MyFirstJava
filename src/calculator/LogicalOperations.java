@@ -50,4 +50,32 @@ public class LogicalOperations {
         }
     }
 
+
+
+    public int[] populateArrayToNumber(int max){
+        int[] myArray = new int[max];
+        for (int i = 0; i < myArray.length; i++){
+            myArray[i] = i + 1;
+        }
+        return myArray;
+    }
+
+    public void printArray(int[] array){
+        for (int i = 0; i< array.length; i++){
+            System.out.print(array[i]+", ");
+        }
+    }
+
+    public double sumOfArray(int[] array){
+        float sumArray = array[0];
+        for (int i = 1; i < array.length; i++){
+            sumArray = sumArray + array[i];
+        }
+        return sumArray;
+    }
+
+    public double getAverageFromArray(int[] array){
+        return sumOfArray(array)/array.length;
+    }
+
 }

@@ -31,7 +31,6 @@ public class AppMain {
 //        System.out.println("Specialization: " + vet.specialization);
 //        vet.consultation();
 
-
         Dog dog = new Dog();
         dog.setName("Barky");
         dog.setColor("Blue");
@@ -64,6 +63,19 @@ public class AppMain {
         System.out.println(vet.getSpecialization());
         vet.setName("Dr. Popescu");
         System.out.println(vet.getName());
+
+        Mouse jerry = new Mouse();
+        jerry.setMale(true);
+        System.out.println(jerry.isMale());
+        Cat garfield = new Cat();
+        garfield.setName("Garfield");
+        System.out.println(garfield.getName());
+        Rabbit bunny = new Rabbit();
+        bunny.setColor("White");
+        System.out.println(bunny.getColor());
+
+
+
 
 
     }
